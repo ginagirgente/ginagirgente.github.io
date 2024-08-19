@@ -176,9 +176,9 @@
     
 /*PICTURE SLIDESHOW*/
 @keyframes picsSlides{
-    0% {background-image: url("joshuatree.png");}
+    0% {background-image: url("football.png");}
     33% {background-image: url("wrestling.png");}
-    66% {background-image: url("football.png");}
+    66% {background-image: url("joshuatree.png");}
     100% {background-image: url("lubbock.png");}
 }
 
