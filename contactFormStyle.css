@@ -1,0 +1,263 @@
+/*GENERAL STYLING*/
+p{
+    font-family: serif;
+}
+
+h4{
+    font-family:courier, monospace;
+   
+}
+
+body{
+    height:100vh;
+    background: linear-gradient(#B7C9BA, #B5C7C6);
+}
+/*CONTACT FORM*/
+.contact-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contact-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    border-radius:10px;
+    background-color: #B7C9BA;
+    margin-bottom: 20px;
+}
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+}
+.contact-lelft textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.contact-inputs:focus{
+    border: 2px solid #587670;
+}
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+}
+
+/*HEADER*/
+/*HELLO WORLD*/
+#helloWorld {
+    /*display:inline;*/
+    margin-top: 1%;
+    display:flex;
+    justify-content:center;
+}  
+
+/* BUTTON BANNER*/          
+    /*changing the bg behind the buttons*/
+    
+    /*child element of div (parent)*/
+    .navBar{
+        display: flex;
+        position:fixed;
+        overflow: hidden;
+        width: 100%;
+        justify-content: center;
+        height: 4rem;
+        background-color:whitesmoke;
+    }
+    
+    .navBar a{
+        text-align: center;
+        text-decoration: none;
+        background-color:whitesmoke;
+        color: black;
+        display: flex;
+        border: none;
+        width: auto;
+        
+        padding:2%;
+        font-size:large;
+        font-family: 'Courier New', Courier, monospace;
+        align-items: center;
+    }
+    .navBar a:hover {
+        background-color:rgb(132, 131, 131);
+        color:white;
+    }
+    .navBar  #home:hover{
+        background-color:rgb(132, 131, 131);
+    }
+    /*
+    #home:hover img{
+        background-image: url("home_gray1.png");
+        filter: brightness(50%);
+    } */
+    .hover-home {
+    display: none;
+    }
+    img:hover .hover-home {
+    display: block;
+    background-image: url("home_gray1.png");
+    }
+
+    .navBar img{
+        width: 30px;
+        height: 30px;
+
+    }
+    
+    /*when button is hovered, change color of button and text*/
+    div button :hover {
+        background-color:rgb(132, 131, 131);
+        color:white;
+        }
+    /*home button*/
+    
+
+/*MAIN STYLING*/
+#main{
+margin: 3%; 
+flex-grow: 1;
+}
+
+h2{
+    font-family:courier, monospace;
+}
+
+h3{
+    font-family:courier, monospace;
+}
+/*ABOUT ME TITLE*/
+/*
+#myPersonalityHeader {
+/*display:inline;*/ /*
+display:flex;
+align-items:center;
+}  
+*/
+
+/*FOOTER*/
+#footer{
+    display:block;
+    background-color:whitesmoke;
+    position: relative;
+    bottom: 0;
+    flex-direction:column;
+    align-items:flex-start;
+   
+}
+#footerDiv{
+    display:inline;
+    background-color:whitesmoke;
+    margin:3%;
+}
+
+/*BACK TO TOP display: flex;
+    width: auto;
+    padding:2%;
+    align-items: center;*/
+.topB #backToTop{
+    text-align: center;
+    background-color:whitesmoke;
+    font-size:medium;
+    border:1px solid rgb(0, 0, 0);
+    font-family:Courier, monospace;
+    color:black;
+}
+.topB #backToTop:hover {
+    background-color:rgb(132, 131, 131);
+    color:white;
+    border:1px solid rgb(0, 0, 0);
+    font-family:Courier, monospace;
+    font-size:medium;
+}
+
+a{
+    color:darkolivegreen;
+    font-family:  serif;
+}
+a:hover{
+    color:rgb(132, 131, 131);
+}
+a:visited{
+    color:rgb(29, 42, 33);
+}
+/*styling footer links*/
+#journeyLinks a{
+    color:darkolivegreen;
+    font-family:  serif;
+}
+#journeyLinks :hover{
+    color:rgb(132, 131, 131);
+}
+#journeyLinks :visited{
+    color:rgb(29, 42, 33);
+}
+
+
+#sources a{
+    color:darkolivegreen;
+}
+#sources :hover{
+    color:rgb(132, 131, 131);
+}
+#sources :visited{
+    color:rgb(29, 42, 33);
+}
+
+/*PICTURE SLIDESHOW*/
+@keyframes picsSlides{
+0% {background-image: url("football.png");}
+33% {background-image: url("wrestling.png");}
+66% {background-image: url("joshuatree.png");}
+100% {background-image: url("lubbock.png");}
+}
+
+#pics{
+background-image: url("mustang.JPG");
+background-size: cover;
+width: 375px;
+height: 200px;
+display:block;
+animation-iteration-count:infinite;
+animation-name: picsSlides;
+animation-duration: 17s;
+animation-delay: 2.5s;
+animation-fill-mode:forwards;
+margin:auto;
+border: 1px rgb(29, 42, 33) solid;
+/*box-shadow: 2px 2px 1px black;*/
+}
+
+#submit{
+text-align: center;
+background-color:rgb(132, 131, 131);
+font-size:medium;
+border:1px solid rgb(0, 0, 0);
+font-family:Courier, monospace;
+color:white;
+}
+#submit:hover {
+background-color:rgb(92, 109, 63);
+color:white;
+border:1px solid rgb(0, 0, 0);
+font-family:Courier, monospace;
+font-size:medium;
+}
