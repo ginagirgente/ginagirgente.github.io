@@ -58,7 +58,7 @@
         }
         /*
         #home:hover img{
-            background-image: url("D:\VScode\home_gray1.png");
+            background-image: url("home_gray1.png");
             filter: brightness(50%);
         } */
         .hover-home {
@@ -66,7 +66,7 @@
         }
         img:hover .hover-home {
         display: block;
-        background-image: url("D:\VScode\home_gray1.png");
+        background-image: url("home_gray1.png");
         }
 
         .navBar img{
@@ -176,14 +176,14 @@
     
 /*PICTURE SLIDESHOW*/
 @keyframes picsSlides{
-    0% {background-image: url("./pics2/joshuatree.png");}
-    33% {background-image: url("./pics2/wrestling.png");}
-    66% {background-image: url("./pics2/football.png");}
-    100% {background-image: url("./pics2/lubbock.png");}
+    0% {background-image: url("joshuatree.png");}
+    33% {background-image: url("wrestling.png");}
+    66% {background-image: url("football.png");}
+    100% {background-image: url("lubbock.png");}
 }
 
 #pics{
-    background-image: url("./pics2/mustang.JPG");
+    background-image: url("mustang.JPG");
     background-size: cover;
     width: 375px;
     height: 200px;
