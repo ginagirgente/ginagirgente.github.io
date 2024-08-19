@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>Portfolio</title>
+        <!--CSS file--> <link rel="stylesheet" type="text/css" href="GinasWebsiteCSS.css" />
+    </head>
+
+    <body>
+        <header class="buttonBanner" >
+            <!--button banner-->
+            <nav class="navBar">
+                <a href="D:\VScode\index.html" id="home"> <img src="D:\VScode\home.png"></a> 
+                <a href="D:\VScode\AboutMe.html">About Me</a> 
+                <a href="D:\VScode\Education.html">Education</a> 
+                <a href="D:\VScode\PastResearch.html">Past Research</a>
+                <a href="D:\VScode\Portfolio.html">Portfolio</a>
+                <a href="D:\VScode\ContactMe.html">Contact Me</a>
+            </nav>
+            
+            <br><br><br>
+           
+        </header>
+        
+        <main id="main">
+            
+            
+            <div id="myWork" style="display:inline">
+                <h2 id="top" style="text-align:center; font-family:courier; display:inline">My Work</h2>
+                <img src="D:\VScode\leaf_screenshotRight.png" width="150" style="vertical-align:middle">
+            </div><br>
+
+            <!--BASEMAPS-->
+            <h3>Basemaps</h3>
+            <b>Pirate Watercolor</b><br>
+            This was created in ArcGIS Online (Map Viewer) and was inpsired by John Nelson's <a href="https://youtu.be/F-H_GSXbLPk?si=taiRjrb-dVf91EL5"> water color map tutorial</a>. 
+            I love how bright John's is, so I decided to create a darker version, which then turned into a pirate-themed map. <br>
+
+            Because this was created in Map Viewer, there is not yet a way to directly embed the map into my website, at least that I know of. The feature is available in Map Viewer Classic,
+             but some styling features I used are not supported by Map Viewer Classic. So, unil Map Viewer is able to be embedded, below is a video of my map.
+             You can also access the map <a href="https://niugeog.maps.arcgis.com/apps/mapviewer/index.html?webmap=9f6518cf2525433096ad31a9208907ae">here</a>.
+            The ship tracks and symbols are layers (aka not part of the basemap), so you can turn them off or add to them if you want more tracks on the map.
+            
+                <div style="text-align:center">
+                    <!--<img src="./pics2/pirate_watercolor_map.png" width="700" > -->
+                    <video controls width="700">
+                        <source src="./pics2/pirate_watercolor.mp4"
+                        type="video/mp4">
+                        Oops! Something went wrong with the video.
+                    </video>
+                </div>
+
+             <!--ARCGIS PRO-->
+             <h3>ArcGIS Pro</h3>
+             <b>A 3D Diorama</b><br>
+             This was created in ArcGIS Pro via help from a <a href url="https://sites.google.com/site/stewartscales/cartography?authuser=1">previous class</a> at Virginia Tech and John Nelson's <a href="https://youtu.be/kVsj6Z7UuLY?si=iUMmrYVVHEZynJ9t"> diorama tutorial</a>. 
+             I may do a soil layer one next!<br>
+             
+                 <div style="text-align:center">
+                     <img src="./pics2/3D_diorama.jpg" width="800" >
+                 </div>
+
+            <!--ARCGIS DASHBOARDS-->
+            <h3>ArcGIS Dashboards</h3>
+            <b>Following Covid-19</b><br>
+            This was created in ArcGIS Dashboard from maps made in ArcGIS Online. I modified an <a href url="https://learn.arcgis.com/en/projects/create-a-covid-19-dashboard/">ArcGIS Dashboard tutorial</a> from Esri. <br>
+            <iframe frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;position:absolute;top:0px;left:0px;right:0px;bottom:0px" height="100%" width="100%"
+            src="https://www.arcgis.com/apps/dashboards/b525f6bcfe594f0abb22a378cbbe0dc1"></iframe>
+        
+    </main>
+    <footer id="footer">
+        <div id="footerDiv">
+            <h4>Follow my Journey</h4>
+            <div id="journeyLinks">
+                <a href="https://www.linkedin.com/in/gina-girgente/">LinkedIn</a><br>
+                <a href="https://wcs.niu.edu/">NIU Weather, Climate, Society Research Group</a><br>
+                <a href="https://www.esri.com/arcgis-blog/author/ggirgente/">Esri ArcGIS Blogs</a>
+            </div>
+
+            <div id="sources">
+                <p>
+                    Sources: <br>
+                    <a href="https://www.istockphoto.com/vector/watercolor-set-of-herbs-isolated-green-branches-and-leaves-gm1366435047-436958040?phrase=leaf%2Bwatercolor&searchscope=image%2Cfilm ">Succulent leaf picture</a><br>
+                </p>
+            </div>
+
+            <!--back to top-->
+            <p><a class=topB href="#top"> <button id="backToTop">Back to top</button></a></p>
+        </div>
+    </footer> 
+    </body>
+</html>
