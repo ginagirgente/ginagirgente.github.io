@@ -132,6 +132,7 @@
         border:1px solid rgb(0, 0, 0);
         font-family:Courier, monospace;
         color:black;
+        border-radius: 50px;
     }
     .topB #backToTop:hover {
         background-color:rgb(132, 131, 131);
