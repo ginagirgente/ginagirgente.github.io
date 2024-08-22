@@ -29,7 +29,7 @@
             </div><br>
 
             <!--BASEMAPS-->
-            <h3>Basemaps</h3>
+            <h3><span style = "background-color:#C7E4C1">Basemaps</h3>
             <b>Pirate Watercolor</b><br>
             This was created in ArcGIS Online (Map Viewer) and was inpsired by John Nelson's <a href="https://youtu.be/F-H_GSXbLPk?si=taiRjrb-dVf91EL5"> water color map tutorial</a>. 
             I love how bright John's is, so I decided to create a darker version, which then turned into a pirate-themed map. <br>
@@ -49,7 +49,7 @@
                 </div>
 
              <!--ARCGIS PRO-->
-             <h3>ArcGIS Pro</h3>
+             <h3><span style = "background-color:#C7E4C1">ArcGIS Pro</h3>
              <b>A 3D Diorama</b><br>
              This was created in ArcGIS Pro via help from a <a href url="https://sites.google.com/site/stewartscales/cartography?authuser=1">previous class</a> at Virginia Tech and John Nelson's <a href="https://youtu.be/kVsj6Z7UuLY?si=iUMmrYVVHEZynJ9t"> diorama tutorial</a>. 
              I may do a soil layer one next!<br>
@@ -66,7 +66,7 @@
                  </div></p>
 
             <!--ARCGIS DASHBOARDS
-            <h3>ArcGIS Dashboards</h3>
+            <h3><span style = "background-color:#C7E4C1">ArcGIS Dashboards</h3>
             <b>Following Covid-19</b><br>
             This was created in ArcGIS Dashboard from maps made in ArcGIS Online. I modified an <a href url="https://learn.arcgis.com/en/projects/create-a-covid-19-dashboard/">ArcGIS Dashboard tutorial</a> from Esri. <br>
             <iframe frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;position:absolute;top:0px;left:0px;right:0px;bottom:0px" height="100%" width="100%"
@@ -92,8 +92,13 @@
             </div>
 
             <!--back to top-->
-            <p><a class=topB href="#top"> <button id="backToTop">Back to top</button></a></p>
-        </div>
-    </footer> 
+            <p><a class=topB > <button id="backToTop">Back to top</button></a></p>
+            </div>
+        </footer> 
+        <script>
+            const topButton = document.getElementById('backToTop');
+
+            topButton.addEventListener('click', () => {window.scrollTo({top: 0, behavior: 'smooth'}); });
+        </script> 
     </body>
 </html>
