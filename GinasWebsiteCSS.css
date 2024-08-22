@@ -55,6 +55,7 @@
         }
         .navBar  #home:hover{
             background-color:rgb(132, 131, 131);
+            border-radius: 50px;
         }
         /*
         #home:hover img{
@@ -67,6 +68,7 @@
         img:hover .hover-home {
         display: block;
         background-image: url("home_gray1.png");
+        
         }
 
         .navBar img{
@@ -79,6 +81,7 @@
         div button :hover {
             background-color:rgb(132, 131, 131);
             color:white;
+            border-radius: 50px;
             }
         /*home button*/
         
@@ -133,6 +136,7 @@
         font-family:Courier, monospace;
         color:black;
         border-radius: 50px;
+        border-radius: 50px;
     }
     .topB #backToTop:hover {
         background-color:rgb(132, 131, 131);
@@ -140,6 +144,7 @@
         border:1px solid rgb(0, 0, 0);
         font-family:Courier, monospace;
         font-size:medium;
+        border-radius: 50px;
         border-radius: 50px;
     }
 
@@ -207,6 +212,7 @@
     border:1px solid rgb(0, 0, 0);
     font-family:Courier, monospace;
     color:white;
+    border-radius: 50px;
 }
 #submit:hover {
     background-color:rgb(92, 109, 63);
@@ -214,4 +220,5 @@
     border:1px solid rgb(0, 0, 0);
     font-family:Courier, monospace;
     font-size:medium;
+    border-radius: 50px;
 }
