@@ -123,8 +123,13 @@
             </div>
 
             <!--back to top-->
-            <p><a class=topB href="#top"> <button id="backToTop">Back to top</button></a></p>
-        </div>
-    </footer> 
+            <p><a class=topB > <button id="backToTop">Back to top</button></a></p>
+            </div>
+        </footer> 
+        <script>
+            const topButton = document.getElementById('backToTop');
+
+            topButton.addEventListener('click', () => {window.scrollTo({top: 0, behavior: 'smooth'}); });
+        </script> 
     </body>
 </html>
